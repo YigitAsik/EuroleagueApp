@@ -1,0 +1,136 @@
+/* Navbar - #f5971d Turuncu #231f20 siyah #4298f5*/
+
+
+.navbar-default {
+    background-color: #014cfd;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #fffffa;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand {
+    color: #fffffa;
+    float: none !important;
+}
+
+.navbar-header {
+  float: none !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #014cfd;
+    background-color: #231f20;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: #fffffa;
+}
+
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fffffa;
+    background-color: transparent;
+}
+
+.tabbable > .nav > li > a {
+  color:#fffffa;
+  background-color: #014cfd;
+}
+
+.tabbable > .nav > li > a:hover {
+  color:#fffffa;
+  background-color: #014cfd;
+}
+
+h3 {
+  display: inline;
+}
+
+#nameApp {
+  text-align: center;
+}
+
+.form-group.shiny-input-container {
+  text-align: center;
+}
+
+#DataTables_Table_0_wrapper {
+  margin-top: 10px;
+}
+
+#relativeTo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 100%;
+}
+
+#onWithout {
+  text-align: center;
+}
+
+#onWith {
+  text-align: center;
+}
+
+#buttonPlot {
+  margin-top: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#checkBox {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*
+#two {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+
+#buttonFilter {
+  margin-top: -10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#information {
+  font-size: 12px;
+  text-align: center;
+}
+
+p {
+  margin: 0 0 0px;
+}
+
+#explanation {
+  text-align: center;
+  margin-top: 15px;
+}
