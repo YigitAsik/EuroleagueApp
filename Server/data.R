@@ -433,6 +433,7 @@ observeEvent(input$filter, {
       ) %>%
       group_by(Player_Team, poss_val_cat) %>%
       summarize(
+        POSS = n(),
         FG3M = sum(Action == '3FGM'),
         FG3A = sum(Action == '3FGA'),
         FG2M = sum(Action == '2FGM'),
